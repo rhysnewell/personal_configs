@@ -1,0 +1,297 @@
+Host *
+    ServerAliveInterval 300
+    ServerAliveCountMax 2
+
+#Host github.com
+#    User git
+#    ProxyJump lyra
+
+#Host rhys
+#     HostName localhost
+#     User rhys
+#     Compression yes
+#     ProxyJump hughes
+#     Port 22222
+
+Host gpu
+     HostName cl5n005
+     User n10853499
+     Compression yes
+     ProxyJump lyra
+
+Host n05
+     HostName cl5n005
+     User n10853499
+     Compression yes
+     ProxyJump lyra
+
+Host n06
+     HostName cl5n006
+     User n10853499
+     Compression yes
+     ProxyJump lyra
+
+Host n07
+     HostName cl5n007
+     User n10853499
+     Compression yes
+     ProxyJump lyra
+
+Host n08
+     HostName cl5n008
+     User n10853499
+     Compression yes
+     ProxyJump lyra
+
+Host n09
+     HostName cl5n009
+     User n10853499
+     Compression yes
+     ProxyJump lyra
+
+Host n10
+     HostName cl5n010
+     User n10853499
+     Compression yes
+     ProxyJump lyra
+
+Host n11
+     HostName cl5n011
+     User n10853499
+     Compression yes
+     ProxyJump lyra
+
+Host n12
+     HostName cl5n012
+     User n10853499
+     Compression yes
+     ProxyJump lyra
+
+Host n13
+     HostName cl5n013
+     User n10853499
+     Compression yes
+     ProxyJump lyra
+
+# Host alpine
+#      HostName localhost
+#      User ben
+#      Compression yes
+#      port 8022
+
+Host lyra
+     HostName lyra.qut.edu.au
+     User n10853499
+     Compression yes
+
+Host uq_dmz
+     HostName awoonga.qriscloud.org.au
+     User uqrnewe1
+     Compression yes
+
+Host awoonga
+     HostName awoonga.qriscloud.org.au
+     User uqrnewe1
+     Compression yes
+
+Host qriscloud
+     HostName data.qriscloud.org.au
+     User rhysnewell
+     Compression yes
+
+Host qris
+     HostName data.qriscloud.org.au
+     User rhysnewell
+     Compression yes
+
+Host keating
+     HostName keating.ace.uq.edu.au
+     User s4331221
+     Compression yes
+     ProxyJump uq_dmz
+
+Host hawke
+     HostName hawke.ace.uq.edu.au
+     User s4331221
+     Compression yes
+     ProxyJump uq_dmz
+
+Host rudd
+     HostName rudd.ace.uq.edu.au
+     User s4331221
+     Compression yes
+     ProxyJump uq_dmz
+
+Host brown
+     HostName brown.ace.uq.edu.au
+     User s4331221
+     Compression yes
+     ProxyJump uq_dmz
+
+Host fraser
+     HostName fraser.ace.uq.edu.au
+     User s4331221
+     Compression yes
+     ProxyJump uq_dmz
+
+Host menzies
+     HostName menzies.ace.uq.edu.au
+     User s4331221
+     Compression yes
+     ProxyJump uq_dmz
+
+Host gillard
+     HostName gillard.ace.uq.edu.au
+     User s4331221
+     Compression yes
+     ProxyJump uq_dmz
+
+Host mrca
+     HostName mrca.ace.uq.edu.au
+     User s4331221
+     Compression yes
+     ProxyJump uq_dmz
+
+Host m1
+     HostName mrca001.ace.uq.edu.au
+     User s4331221
+     Compression yes
+     ProxyJump uq_dmz
+
+Host m2
+     HostName mrca002.ace.uq.edu.au
+     User s4331221
+     Compression yes
+     ProxyJump uq_dmz
+
+Host m3
+     HostName mrca003.ace.uq.edu.au
+     User s4331221
+     Compression yes
+     ProxyJump uq_dmz
+
+Host m4
+     HostName mrca004.ace.uq.edu.au
+     User s4331221
+     Compression yes
+     ProxyJump uq_dmz
+
+Host deakin
+     HostName deakin.ace.uq.edu.au
+     User s4331221
+     Compression yes
+     ProxyJump uq_dmz
+
+Host fadden
+     HostName fadden.ace.uq.edu.au
+     User s4331221
+     Compression yes
+     ProxyJump uq_dmz
+
+Host hughes
+     HostName hughes.ace.uq.edu.au
+     User s4331221
+     Compression yes
+     ProxyJump uq_dmz
+
+Host curtin
+     HostName curtin.ace.uq.edu.au
+     User s4331221
+     Compression yes
+     ProxyJump uq_dmz
+
+Host cook
+     HostName cook.ace.uq.edu.au
+     User s4331221
+     Compression yes
+     ProxyJump uq_dmz
+
+Host reid
+     HostName reid.ace.uq.edu.au
+     User s4331221
+     Compression yes
+     ProxyJump uq_dmz
+
+Host fisher
+     HostName fisher.ace.uq.edu.au
+     User s4331221
+     Compression yes
+     ProxyJump uq_dmz
+
+Host lyons
+     HostName lyons.ace.uq.edu.au
+     User s4331221
+     Compression yes
+     ProxyJump uq_dmz
+
+Host bruce
+     HostName bruce.ace.uq.edu.au
+     User s4331221
+     Compression yes
+     ProxyJump uq_dmz
+
+Host gorton
+     HostName gorton.ace.uq.edu.au
+     User s4331221
+     Compression yes
+     ProxyJump uq_dmz
+
+Host mcewen
+     HostName mcewen.ace.uq.edu.au
+     User s4331221
+     Compression yes
+     ProxyJump uq_dmz
+
+Host page
+     HostName page.ace.uq.edu.au
+     User s4331221
+     Compression yes
+     ProxyJump uq_dmz
+
+Host chifley
+     HostName chifley.ace.uq.edu.au
+     User s4331221
+     Compression yes
+     ProxyJump uq_dmz
+
+Host scullin
+     HostName scullin.ace.uq.edu.au
+     User s4331221
+     Compression yes
+     ProxyJump uq_dmz
+
+Host howard
+     HostName howard.ace.uq.edu.au
+     User s4331221
+     Compression yes
+     ProxyJump uq_dmz
+
+Host hurley
+     HostName hurley.ace.uq.edu.au
+     User s4331221
+     Compression yes
+     ProxyJump uq_dmz
+
+Host holt
+     HostName holt.ace.uq.edu.au
+     User s4331221
+     Compression yes
+     ProxyJump uq_dmz
+
+Host tri
+     HostName di-centos01.di.uq.edu.au
+     User s4331221
+     Compression yes
+     ProxyJump uq_dmz
+
+Host binf
+     HostName binf-training.biosci.uq.edu.au
+     User s4331221
+     Compression yes
+     ProxyJump uq_dmz
+
+# Host wa
+#      HostName dev001.metag.science.uwa.edu.au
+#      User b.woodcroft
+#      Compression yes
+#      ProxyJump hughes
